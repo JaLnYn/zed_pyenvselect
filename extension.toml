@@ -1,0 +1,19 @@
+id = "python-environment-select"
+name = "Python Environment Select"
+description = "..."
+version = "0.0.1"
+schema_version = 1
+authors = ["jalnyn <alan.yuan.jly@gmail.com>"]
+repository = "None"
+
+[slash_commands.pyenvselect]
+description = "prints the current selected python env"
+requires_argument = true
+
+[slash_commands.pyenvlst]
+description = "search for conda and vevs in current directory"
+requires_argument = false
+
+[slash_commands.pyenvcur]
+description = "pick one of three options"
+requires_argument = false
